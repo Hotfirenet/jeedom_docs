@@ -9,3 +9,7 @@ Il y a 3 possibilités pour installer Grocy
 - Sous la forme d'une [Application Windows](https://github.com/grocy/grocy-docker#grocy-on-docker)
 - [Nativement](https://github.com/grocy/grocy#how-to-install),
 - [Via Docker](https://github.com/grocy/grocy-docker#grocy-on-docker)
+
+## Principe de fonctionnement
+
+![Principe](img/Workflow-Jeedom-2-Grocy.jpg)
