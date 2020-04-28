@@ -12,4 +12,4 @@ Il y a 3 possibilités pour installer Grocy
 
 ## Principe de fonctionnement
 
-![Principe](img/Workflow-Jeedom-2-Grocy.jpg)
+![Principe](../img/Workflow-Jeedom-2-Grocy.jpg)
