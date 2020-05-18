@@ -1,4 +1,4 @@
-# Plugins, astuces, doc *by Hotfirenet*
+# Documentation des plugins Jeedom *by Hotfirenet*
 
 ## Plugins
 
