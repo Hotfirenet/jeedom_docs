@@ -1,0 +1,19 @@
+theme: jekyll-theme-slate
+
+title: Jeedom by Hotfirenet
+description: Documentations Jeedom
+
+author:
+  name: Hotfirenet
+
+languages: ["en", "fr"]
+defaultLang: fr
+languageNames:
+  fr: Français
+  en: English
+
+plugins:
+  - jemoji
+  - jekyll-seo-tag
+
+markdown: CommonMarkGhPages
