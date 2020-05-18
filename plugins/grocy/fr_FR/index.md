@@ -21,7 +21,7 @@ Vous devez au préalable avoir un système Grocy fonctionnel !
 
 ## Principe de fonctionnement de Grocy
 
-{% include lightbox.html src="grocy/images/Workflow-Jeedom-2-Grocy.jpg" data="grocy" title="Principe de fonctionnement" imgstyle="width:550px;display: block;margin: 0 auto;" %}
+{% include lightbox.html src="grocy/images/Workflow-Jeedom-2-Grocy.jpg" data="grocy" title="Principe de fonctionnement" imgstyle="display: block;margin: 0 auto;" %}
 
 ## Intallation de Grocy
 
