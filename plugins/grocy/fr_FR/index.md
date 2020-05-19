@@ -7,7 +7,7 @@ description: Plugin Grocy pour le système domotique Jeedom. Grocy est un ERP pe
 
 # Grocy - Plugin pour Jeedom
 
-*→ [Lien market](https://www.jeedom.com/market/index.php?v=d&p=market&type=plugin&plugin_id=3945)*<br />
+*→ [Lien market](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&plugin_id=3945)*<br />
 
 Plugin Grocy pour le système domotique Jeedom. Grocy est un ERP permettant la gestion de stock de vos aliments et de vos tâches ménagères. Le système Grocy est open source est auto-hébergé. 
 Vous devez au préalable avoir un système Grocy fonctionnel !
@@ -37,7 +37,6 @@ Il y a 3 possibilités pour installer Grocy
 - [Nativement](https://github.com/grocy/grocy#how-to-install),
 - [Via Docker](https://github.com/grocy/grocy-docker#grocy-on-docker)
 
-
 ## Installation du plugin Grocy
 
 L'installation du plugin se fait depuis l'interface gestion des plugins et / ou depuis le market
@@ -62,7 +61,6 @@ Pensez à valider la configuration et à activer le panel.
 
 La configuration est propre à votre application. vous pouvez utiliser l'url mis à disposition sur la page du plugin.
 
-
 ## Utilisation du plugin Grocy
 
 Faites une synchronisation de Grocy vers Jeedom. La synchronisation va créer des objets qui sont vos emplacements. Puis les produits seront synchronisés.
@@ -73,10 +71,4 @@ Si le produit n'existe pas, une recherche est faite sur [openFoodFact](https://f
 
 ## Remerciements
 
-Benoit BRETON 
-
-
-
-
-
-
+Benoit BRETON Porteur initial du projet.
