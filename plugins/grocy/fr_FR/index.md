@@ -21,7 +21,13 @@ Vous devez au préalable avoir un système Grocy fonctionnel !
 
 ## Principe de fonctionnement de Grocy
 
+Le principe du plugin Jeedom pour Grocy, est de scanner le code barre d'un produit et d'ajouter ou de supprimer un produit de votre sytème de gestion d'épicerie. 
+
+Pour scanner le produit, vous pouvez utiliser une application mobile.
+
 {% include lightbox.html src="grocy/images/Workflow-Jeedom-2-Grocy.jpg" data="grocy" title="Principe de fonctionnement" imgstyle="display: block;margin: 0 auto;" %}
+
+https://docs.google.com/drawings/d/1g8rvMz-nGeV2KoqWBMqqui6cWDNtPPV5vTQCnpPCyx0/edit?usp=sharing
 
 ## Intallation de Grocy
 
@@ -32,6 +38,45 @@ Il y a 3 possibilités pour installer Grocy
 - [Via Docker](https://github.com/grocy/grocy-docker#grocy-on-docker)
 
 
+## Installation du plugin Grocy
+
+L'installation du plugin se fait depuis l'interface gestion des plugins et / ou depuis le market
+
 ## Configuration du plugin Grocy
+
+Vous devez avoir au préalable une instance Grocy. Sur l'inteface de grocy 
+
+![Création du token](grocy/images/creation-token-grocy.png)
+
+![Génération du token](grocy/images/generation-token-grocy.png)
+
+Une fois le token généré, rendez vous dans la configuration du plugin Grocy
+
+![Configuration du plugin Grocy](grocy/images/configuration-jeedom.png)
+
+La commande de notification vous permez d'être notifié lorsque vous passez dans un mode. 
+
+Pensez à valider la configuration et à activer le panel.
+
+## Configuration de l'application mobile
+
+La configuration est propre à votre application. vous pouvez utiliser l'url mis à disposition sur la page du plugin.
+
+
+## Utilisation du plugin Grocy
+
+Faites une synchronisation de Grocy vers Jeedom. La synchronisation va créer des objets qui sont vos emplacements. Puis les produits seront synchronisés.
+
+Il ne vous reste plus qu'a scanner vos produits depuis l'app et ceux ci seront automatiquement ajoutés ou supprimés.
+
+Si le produit n'existe pas, une recherche est faite sur [openFoodFact](https://fr.openfoodfacts.org/), si une correspondance est faite via le code barre alors celui ci sera ajouté à votre instance Grocy apres une validation de votre part.
+
+## Remerciements
+
+Benoit BRETON 
+
+
+
+
 
 
