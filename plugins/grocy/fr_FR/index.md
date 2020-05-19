@@ -46,13 +46,13 @@ L'installation du plugin se fait depuis l'interface gestion des plugins et / ou 
 
 Vous devez avoir au préalable une instance Grocy. Sur l'inteface de grocy 
 
-![Création du token](grocy/images/creation-token-grocy.png)
+{% include lightbox.html src="grocy/images/creation-token-grocy.png" data="grocy" title="Création du token" imgstyle="width:550px;display: block;margin: 0 auto;" %}
 
-![Génération du token](grocy/images/generation-token-grocy.png)
+{% include lightbox.html src="grocy/images/generation-token-grocy.png" data="grocy" title="Génération du token" imgstyle="width:550px;display: block;margin: 0 auto;" %}
 
 Une fois le token généré, rendez vous dans la configuration du plugin Grocy
 
-![Configuration du plugin Grocy](grocy/images/configuration-jeedom.png)
+{% include lightbox.html src="grocy/images/configuration-jeedom.png" data="grocy" title="Configuration du plugin Grocy" imgstyle="width:550px;display: block;margin: 0 auto;" %}
 
 La commande de notification vous permez d'être notifié lorsque vous passez dans un mode. 
 
