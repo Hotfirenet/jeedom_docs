@@ -27,7 +27,7 @@ Pour scanner le produit, vous pouvez utiliser une application mobile.
 
 {% include lightbox.html src="grocy/images/Workflow-Jeedom-2-Grocy.jpg" data="grocy" title="Principe de fonctionnement" imgstyle="display: block;margin: 0 auto;" %}
 
-https://docs.google.com/drawings/d/1g8rvMz-nGeV2KoqWBMqqui6cWDNtPPV5vTQCnpPCyx0/edit?usp=sharing
+[Pincipe de Fonctionnement](https://docs.google.com/drawings/d/1g8rvMz-nGeV2KoqWBMqqui6cWDNtPPV5vTQCnpPCyx0/edit?usp=sharing)
 
 ## Intallation de Grocy
 
