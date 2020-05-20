@@ -39,7 +39,7 @@ Il y a 3 possibilités pour installer Grocy
 
 ## Installation du plugin Grocy
 
-L'installation du plugin se fait depuis l'interface gestion des plugins et / ou depuis le market
+L'installation du plugin se fait depuis l'interface gestion des plugins et / ou depuis le market.
 
 ## Configuration du plugin Grocy
 
@@ -69,6 +69,20 @@ Il ne vous reste plus qu'a scanner vos produits depuis l'app et ceux ci seront a
 
 Si le produit n'existe pas, une recherche est faite sur [openFoodFact](https://fr.openfoodfacts.org/), si une correspondance est faite via le code barre alors celui ci sera ajouté à votre instance Grocy apres une validation de votre part.
 
+### Le panel
+
+{% include lightbox.html src="grocy/images/panel.png" data="grocy" title="Panel" imgstyle="width:550px;display: block;margin: 0 auto;" %}
+
+### Les logs
+
+Lorsque vous scanner ou que vous utilisiez une un scénario pour modifier une valeur d'un produit, chaque actions est tracées dans un fichier de log journalier. Celui-ci se trouve dans la section logs.
+
+## FAQ
+
+Est ce que le plugin utlise des API tierces ?
+
+Oui le plugin utilise dans un premier temps l'[api de Grocy](https://en.demo.grocy.info/api), mais aussi l'api de [openFoodFact](https://fr.openfoodfacts.org/).
+
 ## Remerciements
 
-Benoit BRETON Porteur initial du projet.
+[bbreton](https://community.jeedom.com/u/bbreton/summary) Porteur initial du projet.
