@@ -71,7 +71,23 @@ Si le produit n'existe pas, une recherche est faite sur [openFoodFact](https://f
 
 ### Le panel
 
-{% include lightbox.html src="grocy/images/panel.png" data="grocy" title="Panel" imgstyle="width:550px;display: block;margin: 0 auto;" %}
+> #### ATTENTION
+> Il faut au préalable activer le panel depuis le paneau de configuration
+
+{% include lightbox.html src="grocy/images/active-panel.png" data="grocy" title="Activation du Panel Jeedom pour Grocy" imgstyle="width:550px;display: block;margin: 0 auto;" %}
+
+Le panel est accessible depuis le menu `Accueil`.
+
+{% include lightbox.html src="grocy/images/menu-panel.png" data="grocy" title="Acceder au Panel Jeedom pour Grocy" imgstyle="width:550px;display: block;margin: 0 auto;" %}
+
+Vous voici sur le panel Grocy.
+
+{% include lightbox.html src="grocy/images/panel.png" data="grocy" title="Panel Jeedom pour Grocy" imgstyle="width:550px;display: block;margin: 0 auto;" %}
+
+Sur ce panel, vous allez retrouver la liste de vos produits scannés non connu, vous pourrez soit:
+- créer le produit dans Grocy, 
+- associer le produit à un produit présent dans Grocy
+- ou supprmier le produit que vous auriez pu scanner par erreur.
 
 ### Les logs
 
