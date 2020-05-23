@@ -12,6 +12,8 @@ description: Plugin Grocy pour le système domotique Jeedom. Grocy est un ERP pe
 Plugin Grocy pour le système domotique Jeedom. Grocy est un ERP permettant la gestion de stock de vos aliments et de vos tâches ménagères. Le système Grocy est open source est auto-hébergé. 
 Vous devez au préalable avoir un système Grocy fonctionnel !
 
+Une board Trello est ouverte publiquement pour suivre [l'avancement du plugin](https://trello.com/b/mhDuOIGH/grocy).
+
 [Changelog](changelog.md)<br />
 
 [Principe de fonctionnement de Grocy](#installation-de-grocy)<br />
