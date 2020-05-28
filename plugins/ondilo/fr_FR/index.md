@@ -1,9 +1,9 @@
 ---
-title: Jeedom | Plugin Grocy
+title: Jeedom | Plugin Ondilo
 description: Les flotteurs de la gamme Ico conçus par la société Ondilo sont des capteurs Wifi qui permettent l'analyse de votre piscine ou de votre SPA. Installation rapide, connexion Wi-Fi compatible piscines sel, brome ou chlore. Le plugin Ondilo - ICO pour jeedom vous permet de remonter les informations mises à disposition tels que la température de l’eau, l’acidité (pH), le redox (ORP), Le sel, Total des Solides Dissous (TDS), ou encore les recommandations.
 ---
 
-<img align="right" src="../images/grocy_icon.png" width="100">
+<img align="right" src="../images/ondilo.png" width="100">
 
 # Grocy - Plugin pour Jeedom
 
@@ -49,7 +49,7 @@ Ce qui donnera:
 
 > Widget (Tuile) personnalisé
 
-{% include lightbox.html src="ondilo/images/custom-ondilo-widget-jeedomm.png" data="grocy" title="Widget Natif" imgstyle="width:550px;display: block;margin: 0 auto;" %}
+{% include lightbox.html src="ondilo/images/custom-ondilo-widget-jeedom.png" data="grocy" title="Widget Natif" imgstyle="width:550px;display: block;margin: 0 auto;" %}
 
 ### Synchronisation de votre Ondilo - ICO
 
