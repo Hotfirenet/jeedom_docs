@@ -1,11 +1,11 @@
 ---
-title: Jeedom | Plugin Grocy
-description: Plugin Grocy pour le système domotique Jeedom. Grocy est un ERP permettant la gestion de stock de vos aliments et de vos tâches ménagères. Le système Grocy est open source est auto-hébergé. 
+title: Jeedom | Plugin ondilo
+description: Plugin ondilo pour le système domotique Jeedom. ondilo est un ERP permettant la gestion de stock de vos aliments et de vos tâches ménagères. Le système ondilo est open source est auto-hébergé. 
 ---
 
-<img align="right" src="../images/grocy_icon.png" width="100">
+<img align="right" src="../images/ondilo_icon.png" width="100">
 
-# Grocy - Plugin pour Jeedom
+# ondilo - Plugin pour Jeedom
 
 *→ [Lien market](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&plugin_id=3945)*<br />
 
@@ -21,9 +21,41 @@ L'installation du plugin se fait depuis l'interface gestion des plugins et / ou 
 
 Dans un premier temps vous devez vous authentifier à votre compte Ondilo depuis la page de configuration.
 
-{% include lightbox.html src="ondilo/images/authentification-a-api-ondilo.png" data="grocy" title="Authentification à l'api Ondilo" imgstyle="width:550px;display: block;margin: 0 auto;" %}
+{% include lightbox.html src="ondilo/images/authentification-a-api-ondilo.png" data="ondilo" title="Authentification à l'api Ondilo" imgstyle="width:550px;display: block;margin: 0 auto;" %}
 
-Une fois connecté
+Une nouvelle page va s'ouvrir, vous devez renseigner vos identifiants. (Pas de craintes vous êtes sur le site d'ondilo le fabriquant de l'ICO. Le plugin ne sauvegarde aucun ni login, ni mot de passe).
+
+** ATTENTION ** le choix de la langue est important, car les recommandations seront dans la langue sélectionnée.
+
+{% include lightbox.html src="ondilo/images/authentification-ondilo.png" data="ondilo" title="Authentification à l'api Ondilo" imgstyle="width:550px;display: block;margin: 0 auto;" %}
+
+Une fois connecté, vous revenez sur une page blanche. Vous pouvez fermer celle-ci et recharger votre page de configuration.
+
+Vous pouvez choisir d'utiliser la tuile personnalisé ou les widgets natifs à jeedom. A vous de choisir en cochant cette option.
+
+{% include lightbox.html src="ondilo/images/activer-widget-custom.png" data="ondilo" title="Activation widget personnalisé" imgstyle="width:550px;display: block;margin: 0 auto;" %}
+
+Ce qui donnera:
+
+> Widget Natif
+
+{% include lightbox.html src="ondilo/images/standard-ondilo-widget-jeedom.png" data="ondilo" title="Widget Natif" imgstyle="width:550px;display: block;margin: 0 auto;" %}
+
+> Widget (Tuile) personnalisé
+
+{% include lightbox.html src="ondilo/images/custom-ondilo-widget-jeedomm.png" data="ondilo" title="Widget Natif" imgstyle="width:550px;display: block;margin: 0 auto;" %}
+
+### Synchronisation de votre Ondilo - ICO
+
+Il est possible d'avoir plusieurs ilots ICO.
+
+{% include lightbox.html src="ondilo/images/synchronisation-jeedom-ondilo-ico.png" data="ondilo" title="Synchronisation des ilots" imgstyle="width:550px;display: block;margin: 0 auto;" %}
+
+### Les recommandations
+
+Les recommandations sont visibles dans le centre de message:
+
+{% include lightbox.html src="ondilo/images/centre-de-message-jeedom-recommandations-ondilo.png" data="ondilo" title="Synchronisation des ilots" imgstyle="width:550px;display: block;margin: 0 auto;" %}
 
 ## FAQ
 

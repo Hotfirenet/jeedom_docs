@@ -9,14 +9,14 @@ description: Plugin Grocy pour le système domotique Jeedom. Grocy est un ERP pe
 
 *→ [Lien market](https://market.jeedom.com/index.php?v=d&p=market&type=plugin&plugin_id=3945)*<br />
 
-Plugin Grocy pour le système domotique Jeedom. Grocy est un ERP permettant la gestion de stock de vos aliments et de vos tâches ménagères. Le système Grocy est open source est auto-hébergé. 
+Plugin Grocy pour le système domotique Jeedom. Grocy est un ERP permettant la gestion de stock de vos aliments et de vos tâches ménagères. Le système Grocy est open source est auto-hébergé. Grace à Grocy est à Jeedom vous allez pouvoir gérer tous les stocks de votre maison. Grocy vous permet d'avoir plusieurs emplacements (Entrepots). 
 Vous devez au préalable avoir un système Grocy fonctionnel !
 
 Une board Trello est ouverte publiquement pour suivre [l'avancement du plugin](https://trello.com/b/mhDuOIGH/grocy).
 
 [Changelog](changelog.md)<br />
 
-[Principe de fonctionnement de Grocy](#installation-de-grocy)<br />
+[Principe de fonctionnement de Grocy](#principe-de-fonctionnement-de-grocy)<br />
 [Intallation de Grocy](#installation-de-grocy)<br />
 [Configuration du plugin Grocy](#configuration-du-plugin-grocy)<br />
 [Première utilisation](#premiere-utilisation)
@@ -63,6 +63,14 @@ Pensez à valider la configuration et à activer le panel.
 
 La configuration est propre à votre application. vous pouvez utiliser l'url mis à disposition sur la page du plugin.
 
+### Liste des applications compatible
+
+**Android**
+- [QR & Barcode Scanner, POST & GET request to server](https://play.google.com/store/apps/details?id=com.scanner.kataykin.icamesscaner.free&hl=fr)
+
+**IOS**
+- En attente de test
+
 ## Utilisation du plugin Grocy
 
 Faites une synchronisation de Grocy vers Jeedom. La synchronisation va créer des objets qui sont vos emplacements. Puis les produits seront synchronisés.
@@ -71,9 +79,25 @@ Il ne vous reste plus qu'a scanner vos produits depuis l'app et ceux ci seront a
 
 Si le produit n'existe pas, une recherche est faite sur [openFoodFact](https://fr.openfoodfacts.org/), si une correspondance est faite via le code barre alors celui ci sera ajouté à votre instance Grocy apres une validation de votre part.
 
+### Les objets
+
+Pour plus aller un peu plus loin, je vous invites à lire les [Concepts Jeedom sur les objets](https://doc.jeedom.com/fr_FR/concept/#tocAnchor-2)
+
+### Les équipements
+La notion d'équipement peut être vague pour certains.
+Dans ce plugin vous allez pouvoir retrouver sous formes de:
+    - Produits,
+    _ Listes de course,
+    - Modes,
+    ...
+
+Pour plus aller un peu plus loin, je vous invites à lire les [Concepts Jeedom sur les équipements](https://doc.jeedom.com/fr_FR/concept/#tocAnchor-3)
+
 ### Le panel
 
-> #### ATTENTION
+> **Depuis la version 1.0.1 le panel s'active autmatiquement**
+
+**ATTENTION**
 > Il faut au préalable activer le panel depuis le paneau de configuration
 
 {% include lightbox.html src="grocy/images/active-panel.png" data="grocy" title="Activation du Panel Jeedom pour Grocy" imgstyle="width:550px;display: block;margin: 0 auto;" %}
