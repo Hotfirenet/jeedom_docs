@@ -1,5 +1,5 @@
 ---
-title: Jeedom | Plugin Ondilo
+title: Jeedom | Plugin Ondilo - ICO
 description: Les flotteurs de la gamme Ico conçus par la société Ondilo sont des capteurs Wifi qui permettent l'analyse de votre piscine ou de votre SPA.
 ---
 
