@@ -73,7 +73,7 @@ Un îlot ICO est un équipement dans Jeedom, ainsi, il dispose de commande type 
 - (info) Vu Dernière Fois
 - (action) Rafraichir 
 
-Un équipement dispose d'un paramètre permettant d'indiquer le niveau de batterie. Vous pouvez retrouver l'info sur le widget ou dans la partie: Analyse > Equipements : exemple https://jeedom.local/index.php?v=d&p=eqAnalyse
+Un équipement dispose d'un paramètre permettant d'indiquer le niveau de batterie. Vous pouvez retrouver l'info sur le widget ou dans la partie: Analyse > Equipements : exemple [https://jeedom.local/index.php?v=d&p=eqAnalyse](https://jeedom.local/index.php?v=d&p=eqAnalyse)
 
 {% include lightbox.html src="ondilo/images/ondilo-battery.png" data="ondilo" title="Analyse des équipements, niveau de batterie" imgstyle="width:550px;display: block;margin: 0 auto;" %}
 
