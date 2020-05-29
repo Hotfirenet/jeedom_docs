@@ -57,7 +57,27 @@ Il est possible d'avoir plusieurs ilots ICO.
 
 {% include lightbox.html src="ondilo/images/synchronisation-jeedom-ondilo-ico.png" data="ondilo" title="Synchronisation des ilots" imgstyle="width:550px;display: block;margin: 0 auto;" %}
 
-### Les recommandations
+#### Les équipements
+
+Pour savoir ce qu'est un équipement je vous invites à lire les [Concepts Jeedom sur les équipements](https://doc.jeedom.com/fr_FR/concept/#tocAnchor-3)
+
+##### Un ilot ICO
+Un îlot ICO est un équipement dans Jeedom, ainsi, il dispose de commande type informations ou actions. Voici la liste des commandes:
+
+- (info) Température
+- (info) Acidité (pH)
+- (info) Désinfection (ORP)
+- (info) Sel si piscine au sel
+- (info) Conductivité (TDS)
+- (info) Puissance du signal WIFI (dB)
+- (info) Vu Dernière Fois
+- (action) Rafraichir 
+
+Un équipement dispose d'un paramètre permettant d'indiquer le niveau de batterie. Vous pouvez retrouver l'info sur le widget ou dans la partie: Analyse > Equipements : exemple https://jeedom.local/index.php?v=d&p=eqAnalyse
+
+{% include lightbox.html src="ondilo/images/ondilo-battery.png" data="ondilo" title="Analyse des équipements, niveau de batterie" imgstyle="width:550px;display: block;margin: 0 auto;" %}
+
+##### Les recommandations
 
 Les recommandations sont visibles dans le centre de message:
 
@@ -67,7 +87,7 @@ Les recommandations sont visibles dans le centre de message:
 
 Est ce que le plugin utlise des API tierces ?
 
-Oui le plugin utilise l'[api officielle de Ondilo]().
+Oui le plugin utilise l'[api officielle de Ondilo](https://interop.ondilo.com/docs/api/customer/v1/).
 
 ## Remerciements
 
