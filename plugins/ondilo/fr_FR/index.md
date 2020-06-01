@@ -37,6 +37,8 @@ Une nouvelle page va s'ouvrir, vous devez renseigner vos identifiants. (Pas de c
 
 Une fois connecté, vous revenez sur une page blanche. Vous pouvez fermer celle-ci et recharger votre page de configuration.
 
+### Custom Widget
+
 Vous pouvez choisir d'utiliser la tuile personnalisé ou les widgets natifs à jeedom. A vous de choisir en cochant cette option.
 
 {% include lightbox.html src="ondilo/images/activer-widget-custom.png" data="ondilo" title="Activation widget personnalisé" imgstyle="width:550px;display: block;margin: 0 auto;" %}
@@ -51,7 +53,13 @@ Ce qui donnera:
 
 {% include lightbox.html src="ondilo/images/custom-ondilo-widget-jeedom.png" data="ondilo" title="Widget Natif" imgstyle="width:550px;display: block;margin: 0 auto;" %}
 
-### Synchronisation de votre Ondilo - ICO
+### Activation des recommandations
+
+Il est possible de ne pas récupérer les recommandations proposées par Ondilo en ne cochant pas cette option.
+
+{% include lightbox.html src="ondilo/images/ondilo-activer-les-recommandations.png" data="ondilo" title="Activer ou désactiver les recommandations" imgstyle="width:550px;display: block;margin: 0 auto;" %}
+
+## Synchronisation de votre Ondilo - ICO
 
 Il est possible d'avoir plusieurs ilots ICO.
 
