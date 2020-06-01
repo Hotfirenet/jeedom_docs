@@ -77,7 +77,7 @@ Un îlot ICO est un équipement dans Jeedom, ainsi, il dispose de commande type 
 - (info) Désinfection (ORP)
 - (info) Sel si piscine au sel
 - (info) Conductivité (TDS)
-- (info) Puissance du signal WIFI (dB)
+- (info) Puissance du signal WIFI (%)
 - (info) Vu Dernière Fois
 - (action) Rafraichir 
 
@@ -90,6 +90,8 @@ Un équipement dispose d'un paramètre permettant d'indiquer le niveau de batter
 Les recommandations sont visibles dans le centre de message:
 
 {% include lightbox.html src="ondilo/images/centre-de-message-jeedom-recommandations-ondilo.png" data="ondilo" title="Synchronisation des ilots" imgstyle="width:550px;display: block;margin: 0 auto;" %}
+
+Pour le moment les recommandations proposées par l'api de Ondilo se résume au type **Waiting**, c'est à dire celles qui demandent une validations de votre part.
 
 ## FAQ
 

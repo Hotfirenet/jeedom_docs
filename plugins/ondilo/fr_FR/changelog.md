@@ -23,6 +23,8 @@ Les flotteurs de la gamme Ico conçus par la société Ondilo sont des capteurs 
 
 ### 01/06/2020
 - Passage en stable
+- Ajout du niveau de batterie sur le widget
+- Ajout du niveau de batterie sous forme de commande
 
 ### 01/05/2020
 - Initial Commit
